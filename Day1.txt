@@ -1,0 +1,39 @@
+CSS(Cascading Style Sheets):-
+Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+Filename extension: css
+Developed by: World Wide Web Consortium (W3C)
+Container for: Style rules for HTML elements (tags)
+Initial release: 17 December 1996; 26 years ago
+Latest release: CSS 2.1: Level 2 Revision 1; 12 April 2016; 7 years ago
+
+types of css:-
+
+(1) Inline css
+(2) Internal css
+(3) External css 
+
+/* General syntax to write css selector {property1:value1,property2:value2} */
+                                                 /* {key:value} */
+/* 1:- color:reg( r => 0-255,g => 255, b => 0-255)
+2:- color:rgb(23,45,67)
+3:- color:rgba(r=red,g=green,b=black,alpha) a = opcity */
+
+/* Decimal
+Octal
+Binary
+Hexadecimal => #0f0503 */
+
+/* ----------------Selector------------- */
+
+/* How to add css into your project */
+
+/* (1) Inline css
+(2) Internal css
+(3) External css */
+
+
+(1) simple selector:- Global selector or all element selector,
+and Universal Selector
+
+(2) Element Selector:- syntax:- name of element{ write here}
+e.g:- h1{...}
