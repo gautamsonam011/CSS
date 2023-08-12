@@ -1,0 +1,13 @@
+absolute:-
+The element is removed from the normal document flow, and no space is created for the element in the page layout.
+It is positioned relative to its closest positioned ancestor (i.e, the nearest ancestor that is not static), if any;
+otherwise, it is placed relative to the initial containing block.
+Its final position is determined by the values of top, right, bottom, and left.
+
+fixed:-
+The element is removed from the normal document flow, and no space is created for the element in the page layout.
+It is positioned relative to the initial containing block established by the viewport.
+Its final position is determined by the values of top, right, bottom, and left.
+
+sticky:-
+The element is positioned according to the normal 
