@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Part Two</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+            background-color: chocolate;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        #b1 {
+            text-align: center;
+            background-color: cadetblue;
+        }
+
+        #b2 {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            text-align: center;
+            background-color: rgb(156, 247, 190);
+        }
+
+        /* -----Relative------ */
+        #b3 {
+            text-align: center;
+            position: relative;
+            left: 30px;
+            top: 40px;
+            background-color: rgb(211, 246, 158);
+        }
+
+        #b4 {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            background-color: rgb(253, 164, 201);
+        }
+
+        .box5 {
+            width: 200px;
+            height: 200px;
+            margin-top: 50px;
+            position: relative;
+            background-color: bisque;
+        }
+
+        h2 {
+            position: relative;
+            text-align: center;
+            top: 33%;
+            z-index: 1;
+            color: rgb(21, 14, 149);
+        }
+
+        #bx1 {
+            margin-top:20px;
+            width: 100px;
+            height: 6rem;
+            background-color: rgb(49, 248, 119);
+        }
+
+        #bx2 {
+            width: 100px;
+            height: 6rem;
+            position: relative;
+            left:50px;
+            bottom:40px;
+            z-index: 1;
+            border: 2px solid rgb(242, 84, 113);
+            background-color: rgb(216, 218, 78);
+        }
+        #bx3{
+            width: 100px;
+            height: 6rem;
+            position: relative;
+            left: 100px;
+            bottom:60px;
+            background-color: rgb(206, 46, 145);
+        }
+        /*--------Absolute Position-------*/
+        h3{
+            font-size: 50px;
+            color: coral;
+            position: absolute;
+            text-align: center;
+            left:50%;
+            top:50%;
+            background-color: antiquewhite;
+        }
+        h3{
+            transform: translate(-50%,-50%);
+        }
+        /*--------Fixed Position------- */
+        #box2{
+            width:6rem;
+            height: 6rem;
+            position:fixed;
+            top: 50%;
+            left:50%;
+            background-color: rgb(59, 194, 167);
+        }
+        .box6{
+            position: sticky;
+            top:60%;
+            left:60%;
+            width:6rem;
+            height: 6rem;
+            background-color: brown;
+                }
+    </style>
+</head>
+
+<body>
+    <!-- -------------Position------------ -->
+    <h1>Welcome To Second Part Of Position</h1>
+    <div class="box" id="b1">BOX1</div>
+    <div class="box" id="b3">BOX3</div>
+    <div class="box" id="b4">BOX4</div>
+    <div class="box5">BOX5
+        <h2>Welcome To Here</h2>
+        <div class="box" id="b2">BOX2</div>
+    </div>
+
+    <div id="bx1">1</div>
+    <div id="bx2">2</div>
+    <div id="bx3">3</div>
+
+    <h3>Welcome To Font Size</h1>
+
+    <div id="box2">Boxx</div>
+
+    <div class="box6">Box6</div>
+</body>
+
+</html>
