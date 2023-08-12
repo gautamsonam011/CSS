@@ -10,4 +10,5 @@ It is positioned relative to the initial containing block established by the vie
 Its final position is determined by the values of top, right, bottom, and left.
 
 sticky:-
-The element is positioned according to the normal 
+A sticky element toggles between relative and fixed , depending on the scroll position. 
+It is positioned relative until a given offset position is met in the viewport.
